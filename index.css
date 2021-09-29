@@ -46,24 +46,24 @@ blockquote, q {
     /* Above is the CSS Reset */
 
 
-    font-family: 'Chelsea Market', cursive;
-font-family: 'Roboto Mono', monospace;
-
-    *{
+    * {
         box-sizing:border-box;
         padding:0;
         margin:0;
         max-width:100%;
-        border:1px solid grey;
+        border:1px solid black;
         font-family: 'Roboto Mono', monospace;
     }
+
     html {
         font-size: 62.5%;
     }
+
     body{
         font-size:1.6rem;
         line-height:1.5;
         color:#4f4f4f;
+        background-color: #DDB9A3;
     }
     section{
         padding: 4% 0;
@@ -117,3 +117,6 @@ font-family: 'Roboto Mono', monospace;
      top:45%;
  }
  
+ footer{
+    background-color: #F9E7DC;
+ }
