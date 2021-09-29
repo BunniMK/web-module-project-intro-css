@@ -63,7 +63,6 @@ blockquote, q {
         font-size:1.6rem;
         line-height:1.5;
         color:#4f4f4f;
-        background-color: #DDB9A3;
     }
     section{
         padding: 4% 0;
@@ -75,8 +74,9 @@ blockquote, q {
         padding:2% 0;
     }
     nav a{
+        text-transform: capitalize;
         display:inline-block;
-        padding:1% 0;
+        padding:.5% 2%;
         border-radius: 10px;
         text-align: center;
         color:#fff;
@@ -96,9 +96,7 @@ blockquote, q {
    }
 
  /* top section styles */
- h1 {
-    font-family: 'Chelsea Market', cursive;
- }
+ 
  .left, .right{
     display: inline-block;
     text-align: center;
@@ -111,12 +109,45 @@ blockquote, q {
     width:80%;
  }
  .right{
-     width: 55%;
-     margin-left: 5%;
+     width: 65%;
+     margin-left: 3%;
      position: absolute;
-     top:45%;
+     top:40%;
+     line-height: 1.4;
+     
  }
- 
+
+h2{ 
+    padding:3% 
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size:6rem;
+    padding: 0 0 0 3%;
+ }
+ /* Second section styles */
+ .second{
+    background-color: #DDB9A3;
+    color:white;
+    margin: 3%;
+    text-align: center;
+    letter-spacing: 1px;
+ }
+.second p{
+    padding: 1% 1.5%;
+}
+
+ /* Third section CSS */
+    .third{
+        text-align: center;
+        margin: 0 30%;
+    }
+    
+  span{
+      font-weight: bold;
+  }
+
+ /* Footer CSS */
  footer{
     background-color: #F9E7DC;
  }
