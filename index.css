@@ -112,15 +112,15 @@ blockquote, q {
     text-align: center;
  }
  .left {
-    width: 30%;
+    width: 40%;
+    margin: 0 auto;
  }
  .left img{
     border-radius: 50%;
-    width:80%;
+    width:60%;
  }
  .right{
-     width: 65%;
-     margin-left: 3%;
+     width: 55%;
      position: absolute;
      top:40%;
      line-height: 1.4;
@@ -152,7 +152,20 @@ h1 {
         text-align: center;
         margin: 0 30%;
     }
-    
+    .fire{
+        margin:0 auto;
+        padding: 10%;
+    }
+    .fire img{
+        width: 30%;
+    }
+    .rv{
+        margin:0 auto:
+        padding: 10%;
+    }
+    .rv img{
+        width: 30%;
+    }
   span{
       font-weight: bold;
   }
@@ -163,5 +176,6 @@ h1 {
  }
  footer img{
      width: 100%;
-     
+     background-color: #fff;
+
  }
