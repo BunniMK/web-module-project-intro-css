@@ -51,7 +51,7 @@ blockquote, q {
         padding:0;
         margin:0;
         max-width:100%;
-        border:1px solid black;
+        /* border:1px solid black; */
         font-family: 'Roboto Mono', monospace;
     }
 
@@ -84,7 +84,7 @@ blockquote, q {
 
     .orange{
         background-color:#FF764E;
-        margin:0 18%;
+        margin:0 16%;
     }
     .orange:hover{
         background-color:#96381b;
@@ -99,7 +99,7 @@ blockquote, q {
     }
     .yellow{
         background-color: #FFCD69;
-        margin: 0 18%;
+        margin: 0 16%;
    }
    .yellow:hover{
     background-color: #b38323;
@@ -121,7 +121,6 @@ blockquote, q {
  }
  .right{
      width: 55%;
-     position: absolute;
      top:40%;
      line-height: 1.4;
      
@@ -172,10 +171,11 @@ h1 {
 
  /* Footer CSS */
  footer{
-    background-color: #F9E7DC;
+    padding: 5% 0 0;
  }
  footer img{
-     width: 100%;
-     background-color: #fff;
-
+    background-image: url(assets/footer_img.jpg);
+     height: 25vh;
+     background-position: 0vh -7vh;
+     width:100%;
  }
